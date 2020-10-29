@@ -236,7 +236,6 @@
 	"csscomb.preset": "zen",
 	"material-icon-theme.activeIconPack": "react",
 	"materialTheme.accent": "Bright Teal",
-	"workbench.colorTheme": "Community Material Theme Palenight",
 	"sync.forceUpload": true,
 	"oneDarkPro.vivid": true,
 	"oneDarkPro.editorTheme": "Onedark Pro",
@@ -330,4 +329,5 @@
 "editor.semanticHighlighting.enabled": true,
 "editor.colorDecorators": false,
 "liquid.format": true,
+"workbench.colorTheme": "Community Material Theme Palenight",
 }
