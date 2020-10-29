@@ -1,0 +1,333 @@
+{
+	"editor.fontSize": 16,
+	"editor.lineHeight": 26,
+	"explorer.autoReveal": false,
+	"editor.fontFamily": "Fira Code",
+	"editor.insertSpaces": false,
+	"editor.tabSize": 3,
+	"editor.tabCompletion": "on",
+	"editor.minimap.enabled": true,
+	"editor.selectionHighlight": false,
+	"editor.fontLigatures": true,
+	"editor.renderIndentGuides": true,
+	"editor.renderLineHighlight": "all",
+	"editor.wordWrap": "on",
+	"explorer.decorations.badges": false,
+	"editor.dragAndDrop": true,
+	"editor.quickSuggestionsDelay": 100,
+	"editor.suggestOnTriggerCharacters": false,
+	"html.format.enable": false,
+	"html.format.wrapLineLength": 0,
+	"javascript.format.enable": false,
+	"json.format.enable": false,
+	"typescript.format.enable": false,
+	"multiclip.formatAfterPaste": false,
+	"editor.formatOnPaste": false,
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": false
+	},
+	"emmet.includeLanguages": {
+		"plaintext": "html",
+		"twig": "html",
+		"ejs": "html",
+		"php": "html",
+		"php-twig": "html",
+		"jekyll": "html",
+		"nunjucks": "html",
+		"markdown": "md",
+		"postcss": "css"
+	},
+	"emmet.syntaxProfiles": {
+		"html": {
+			"filters": "html",
+			"profile": "html"
+		},
+		"php": {
+			"filters": "html",
+			"profile": "html"
+		}
+	},
+	"emmet.preferences": {
+		"bem.elementSeparator": "__",
+		"bem.modifierSeparator": "--"
+	},
+	"editor.multiCursorModifier": "ctrlCmd",
+	"workbench.iconTheme": "eq-material-theme-icons-palenight",
+	"git.autofetch": true,
+	"npm.enableScriptExplorer": true,
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true
+	},
+	"window.zoomLevel": 0,
+	"sync.gist": "2e04dc7c728f0dcb9f9abffc57d80ede",
+	"sync.quietSync": false,
+	"sync.askGistName": false,
+	"sync.removeExtensions": true,
+	"sync.syncExtensions": true,
+	"sync.autoDownload": false,
+	"sync.autoUpload": false,
+	"sync.forceDownload": false,
+	"editor.hover.enabled": false,
+	"terminal.integrated.rendererType": "dom",
+	"breadcrumbs.enabled": true,
+	"git.enableSmartCommit": true,
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.fontFamily": "'Fira Code'",
+	"files.associations": {
+		".stylelintrc": "json",
+		"*.html": "html"
+	},
+	"gitTreeCompare.diffMode": "full",
+	"gitMerger.extendAutoCommitMessage": false,
+	"workbench.settings.editor": "ui",
+	"todohighlight.include": [
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.html",
+		"**/*.php",
+		"**/*.css",
+		"**/*.scss"
+	],
+	"todohighlight.exclude": [
+		"**/node_modules/**",
+		"**/dist/**",
+		"**/bower_components/**",
+		"**/build/**",
+		"**/.vscode/**",
+		"**/.github/**",
+		"**/_output/**",
+		"**/*.min.*",
+		"**/*.map"
+	],
+	"todohighlight.isEnable": false,
+	"terminal.integrated.fontWeightBold": "normal",
+	"terminal.external.linuxExec": "",
+	"php.validate.executablePath": "/usr/bin/php",
+	"explorer.confirmDelete": false,
+	"css_peek.exclude": [
+		"node_modules",
+		"bower_components",
+		"vendor"
+	],
+	"search.exclude": {
+		"**/npm-asset": true
+	},
+	"files.watcherExclude": {
+		"**/npm-asset": true
+	},
+	"files.exclude": {
+		"vendor/": true
+	},
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": true,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [{
+			"scope": [
+				"comment",
+				"comment.block",
+				"comment.block.documentation",
+				"comment.line",
+				"constant",
+				"constant.character",
+				"constant.character.escape",
+				"constant.numeric",
+				"constant.numeric.integer",
+				"constant.numeric.float",
+				"constant.numeric.hex",
+				"constant.numeric.octal",
+				"constant.other",
+				"constant.regexp",
+				"constant.rgb-value",
+				"emphasis",
+				"entity",
+				"entity.name",
+				"entity.name.class",
+				"entity.name.function",
+				"entity.name.method",
+				"entity.name.section",
+				"entity.name.selector",
+				"entity.name.tag",
+				"entity.name.type",
+				"entity.other",
+				"entity.other.attribute-name",
+				"entity.other.inherited-class",
+				"invalid",
+				"invalid.deprecated",
+				"invalid.illegal",
+				"keyword",
+				"keyword.control",
+				"keyword.operator",
+				"keyword.operator.new",
+				"keyword.operator.assignment",
+				"keyword.operator.arithmetic",
+				"keyword.operator.logical",
+				"keyword.other",
+				"markup",
+				"markup.bold",
+				"markup.changed",
+				"markup.deleted",
+				"markup.heading",
+				"markup.inline.raw",
+				"markup.inserted",
+				"markup.italic",
+				"markup.list",
+				"markup.list.numbered",
+				"markup.list.unnumbered",
+				"markup.other",
+				"markup.quote",
+				"markup.raw",
+				"markup.underline",
+				"markup.underline.link",
+				"meta",
+				"meta.block",
+				"meta.cast",
+				"meta.class",
+				"meta.function",
+				"meta.function-call",
+				"meta.preprocessor",
+				"meta.return-type",
+				"meta.selector",
+				"meta.tag",
+				"meta.type.annotation",
+				"meta.type",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+				"punctuation.separator",
+				"punctuation.separator.continuation",
+				"punctuation.terminator",
+				"storage",
+				"storage.modifier",
+				"storage.type",
+				"string",
+				"string.interpolated",
+				"string.other",
+				"string.quoted",
+				"string.quoted.double",
+				"string.quoted.other",
+				"string.quoted.single",
+				"string.quoted.triple",
+				"string.regexp",
+				"string.unquoted",
+				"strong",
+				"support",
+				"support.class",
+				"support.constant",
+				"support.function",
+				"support.other",
+				"support.type",
+				"support.type.property-name",
+				"support.variable",
+				"variable",
+				"variable.language",
+				"variable.name",
+				"variable.other",
+				"variable.other.readwrite",
+				"variable.parameter"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		}]
+	},
+	"csscomb.preset": "zen",
+	"material-icon-theme.activeIconPack": "react",
+	"materialTheme.accent": "Bright Teal",
+	"workbench.colorTheme": "Community Material Theme Palenight",
+	"sync.forceUpload": true,
+	"oneDarkPro.vivid": true,
+	"oneDarkPro.editorTheme": "Onedark Pro",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"markdown.extension.toc.updateOnSave": false,
+	"markdown.extension.toc.levels": "2..3",
+	"beautify.config": {
+		"indent_size": 1,
+		"indent_char": "\t",
+		"space_after_anon_function": true,
+		"indent_with_tabs": true
+	},
+	"beautify.language": {
+		"js": {
+			"type": ["javascript", "json"],
+			"filename": [".jshintrc", ".jsbeautifyrc"]
+			// "ext": ["js", "json"]
+			// ^^ to set extensions to be beautified using the javascript beautifier
+		},
+		"css": ["css", "scss"],
+		"html": ["htm", "html"]
+	},
+	"workbench.colorCustomizations": {
+		"activityBarBadge.background": "#64FFDA",
+		"activityBar.activeBorder": "#64FFDA",
+		"list.activeSelectionForeground": "#64FFDA",
+		"list.inactiveSelectionForeground": "#64FFDA",
+		"list.highlightForeground": "#64FFDA",
+		"scrollbarSlider.activeBackground": "#64FFDA50",
+		"editorSuggestWidget.highlightForeground": "#64FFDA",
+		"textLink.foreground": "#64FFDA",
+		"progressBar.background": "#64FFDA",
+		"pickerGroup.foreground": "#64FFDA",
+		"tab.activeBorder": "#64FFDA",
+		"notificationLink.foreground": "#64FFDA",
+		"editorWidget.resizeBorder": "#64FFDA",
+		"editorWidget.border": "#64FFDA",
+		"settings.modifiedItemIndicator": "#64FFDA",
+		"settings.headerForeground": "#64FFDA",
+		"panelTitle.activeBorder": "#64FFDA",
+		"breadcrumb.activeSelectionForeground": "#64FFDA",
+		"menu.selectionForeground": "#64FFDA",
+		"menubar.selectionForeground": "#64FFDA",
+		"editor.findMatchBorder": "#64FFDA",
+		"selection.background": "#64FFDA40"
+	},
+	"scss.validate": false,
+	"editor.columnSelection": false,
+	"macros": {
+		"MarkdownLinkSelect": [
+			"extension.selectSquareBracketsOuter",
+			"cursorWordEndRightSelect",
+			"cursorWordEndRightSelect",
+			"cursorWordEndRightSelect",
+			"cursorRightSelect"
+		]
+	},
+	"gitlens.remotes": [{
+		"domain": "gitlab.example.com",
+		"type": "GitLab",
+		"urls": {
+			"file": "https://gitlab.example.com:8000/..."
+		}
+	}
+],
+"tailwindCSS.emmetCompletions": true,
+"tailwindCSS.includeLanguages": {
+	"scss": "css",
+	"nunjucks": "html"
+},
+"colorInfo.languages": [
+	
+	{
+		"selector": "css",
+		"colors": "css"
+	},
+	{
+		"selector": "sass",
+		"colors": "css"
+	},
+	{
+		"selector": "scss",
+		"colors": "css"
+	},
+	{
+		"selector": "less",
+		"colors": "css"
+	}
+],
+"editor.occurrencesHighlight": false,
+"editor.semanticHighlighting.enabled": true,
+"editor.colorDecorators": false,
+"liquid.format": true,
+}

@@ -1,0 +1,79 @@
+[
+	{
+		"name": "trading-journal",
+		"rootPath": "/home/rooc/Work/trading-journal",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "ldap",
+		"rootPath": "/home/rooc/Work/ldap",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "adaxes",
+		"rootPath": "/home/rooc/Work/adaxes",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "help",
+		"rootPath": "/home/rooc/Work/adaxes-help",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "sdk",
+		"rootPath": "/home/rooc/Work/adaxes/sdk",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "odigia",
+		"rootPath": "/home/rooc/Work/odigia",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "PDF",
+		"rootPath": "/home/rooc/Work/pdf-gen",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "iotc",
+		"rootPath": "/home/rooc/Work/iotc",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "speeddial",
+		"rootPath": "/home/rooc/Work/speeddial",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "11st",
+		"rootPath": "/home/rooc/Work/11st",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "fx-journal",
+		"rootPath": "/home/rooc/Work/fx-journal",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]

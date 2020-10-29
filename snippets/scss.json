@@ -1,0 +1,42 @@
+{
+	"Include Breakpoint": {
+		"prefix": "@bp",
+		"body": [
+			"@include breakpoint(${1:\\$m-med}) {",
+			"\t$2",
+			"}$0"
+		],
+		"description": "Include Breakpoint"
+	},
+	"Comment": {
+		"prefix": "com",
+		"body": [
+			"// -----------------------------------------------",
+			"// $0",
+			"// -----------------------------------------------"
+		],
+		"description": "Comment"
+	},
+	"Debug Border": {
+		"prefix": "bdo",
+		"body": [
+			"border: 1px dotted red;"
+		],
+		"description": "Debug Border"
+	},
+	"PurgeCSScomment": {
+		"prefix": "purge",
+		"body": [
+			"/* purgecss start ignore */",
+			"/* purgecss end ignore */"
+		],
+		"description": "PurgeCSS Igonore"
+	},
+	"Apply": {
+		"prefix": "ap",
+		"body": [
+			"{ @apply $0; }",
+		],
+		"description": "Tailwind apply"
+	}
+}

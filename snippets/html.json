@@ -1,0 +1,77 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"YII:Render": {
+		"prefix": "render",
+		"body": [
+		  "<?php echo $this->render('/elements/bottom-card-two.php',[",
+		  "\t'title' => 'Got questions?',",
+		  "\t'linktext1' => 'Support',",
+		  "\t'url1' => '/support.htm',",
+		  "\t'linktext2' => 'Forum',",
+		  "\t'url2' => '/forum'",
+		  "]);?>"
+		],
+		"description": "YII render"
+	},
+	"YII:Alias": {
+		"prefix": "alias",
+		"body": [
+			"<?= Yii::getAlias('@img/subdir/picture.png') ?>"
+		],
+		"description": "YII img path alias"
+	},
+	"YII: IMG": {
+		"prefix": "img",
+		"body": [
+			"<?= Html::img('@img/', [",
+			"\t'alt' => 'text',",
+			"]); ?>"
+		],
+		"description": "Yii image function"
+	},
+		"YII: A": {
+		"prefix": "link",
+		"body": [
+			"<?= Html::a(",
+				"\t'Link text',",
+				"\t'@img/articles/provisioning/rule-based-automation.png',",
+				"\t['rel' => 'lightbox', 'class' => ''])",
+			"?>"
+		],
+		"description": "Yii Link"
+	},
+		"YII: A>Link": {
+		"prefix": "linkimg",
+		"body": [
+			"<?=",
+			"\tHtml::a(",
+			"\t\tHtml::img('@img/', [",
+				"\t\t\t'alt' => '',",
+			"\t\t]),",
+			"\t'@img/',",
+			"\t['rel' => 'lightbox', 'class' => ''])",
+			"?>"
+		],
+		"description": "Yii Link with IMG"
+	},
+		"PHP: Tags": {
+		"prefix": "php",
+		"body": [
+			"<?php",
+			"?>"
+		],
+		"description": "Yii Link"
+	},
+}
