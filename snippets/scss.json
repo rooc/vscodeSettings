@@ -38,5 +38,15 @@
 			"{ @apply $0; }",
 		],
 		"description": "Tailwind apply"
+	},
+	"Background 2x": {
+		"prefix": "bg2x",
+		"body": [
+			"@media (-webkit-min-device-pixel-ratio: 2),",
+			"(min-resolution: 192dpi)  {",
+			"\tbackground-image: url(\"$0\");",
+			"}"
+		],
+		"description": "Tailwind apply"
 	}
 }

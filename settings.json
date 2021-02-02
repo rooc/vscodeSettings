@@ -56,19 +56,10 @@
 	"editor.multiCursorModifier": "ctrlCmd",
 	"workbench.iconTheme": "eq-material-theme-icons-palenight",
 	"git.autofetch": true,
-	"npm.enableScriptExplorer": true,
 	"gitlens.advanced.messages": {
 		"suppressShowKeyBindingsNotice": true
 	},
 	"window.zoomLevel": 0,
-	"sync.gist": "2e04dc7c728f0dcb9f9abffc57d80ede",
-	"sync.quietSync": false,
-	"sync.askGistName": false,
-	"sync.removeExtensions": true,
-	"sync.syncExtensions": true,
-	"sync.autoDownload": false,
-	"sync.autoUpload": false,
-	"sync.forceDownload": false,
 	"editor.hover.enabled": false,
 	"terminal.integrated.rendererType": "dom",
 	"breadcrumbs.enabled": true,
@@ -82,28 +73,6 @@
 	"gitTreeCompare.diffMode": "full",
 	"gitMerger.extendAutoCommitMessage": false,
 	"workbench.settings.editor": "ui",
-	"todohighlight.include": [
-		"**/*.js",
-		"**/*.jsx",
-		"**/*.ts",
-		"**/*.tsx",
-		"**/*.html",
-		"**/*.php",
-		"**/*.css",
-		"**/*.scss"
-	],
-	"todohighlight.exclude": [
-		"**/node_modules/**",
-		"**/dist/**",
-		"**/bower_components/**",
-		"**/build/**",
-		"**/.vscode/**",
-		"**/.github/**",
-		"**/_output/**",
-		"**/*.min.*",
-		"**/*.map"
-	],
-	"todohighlight.isEnable": false,
 	"terminal.integrated.fontWeightBold": "normal",
 	"terminal.external.linuxExec": "",
 	"php.validate.executablePath": "/usr/bin/php",
@@ -236,9 +205,7 @@
 	"csscomb.preset": "zen",
 	"material-icon-theme.activeIconPack": "react",
 	"materialTheme.accent": "Bright Teal",
-	"sync.forceUpload": true,
 	"oneDarkPro.vivid": true,
-	"oneDarkPro.editorTheme": "Onedark Pro",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"markdown.extension.toc.updateOnSave": false,
 	"markdown.extension.toc.levels": "2..3",
@@ -293,14 +260,6 @@
 			"cursorRightSelect"
 		]
 	},
-	"gitlens.remotes": [{
-		"domain": "gitlab.example.com",
-		"type": "GitLab",
-		"urls": {
-			"file": "https://gitlab.example.com:8000/..."
-		}
-	}
-],
 "tailwindCSS.emmetCompletions": true,
 "tailwindCSS.includeLanguages": {
 	"scss": "css",
@@ -328,6 +287,10 @@
 "editor.occurrencesHighlight": false,
 "editor.semanticHighlighting.enabled": true,
 "editor.colorDecorators": false,
-"liquid.format": true,
 "workbench.colorTheme": "Community Material Theme Palenight",
+"css.styleSheets": [
+	"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.css"
+],
+"npm.enableRunFromFolder": true,
+"npm.exclude": ["**/backend/**", "**/vendor/**"],
 }

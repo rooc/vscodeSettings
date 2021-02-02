@@ -1,0 +1,9 @@
+{
+	"nunjucks comment": {
+		"prefix": "com",
+		"body": [
+			"{# $0 #}"
+		],
+		"description": "Nunjuck comment"
+	}
+}
