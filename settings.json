@@ -77,11 +77,6 @@
 	"terminal.external.linuxExec": "",
 	"php.validate.executablePath": "/usr/bin/php",
 	"explorer.confirmDelete": false,
-	"css_peek.exclude": [
-		"node_modules",
-		"bower_components",
-		"vendor"
-	],
 	"search.exclude": {
 		"**/npm-asset": true
 	},
@@ -202,7 +197,6 @@
 			}
 		}]
 	},
-	"csscomb.preset": "zen",
 	"material-icon-theme.activeIconPack": "react",
 	"materialTheme.accent": "Bright Teal",
 	"oneDarkPro.vivid": true,
@@ -286,11 +280,18 @@
 ],
 "editor.occurrencesHighlight": false,
 "editor.semanticHighlighting.enabled": true,
-"editor.colorDecorators": false,
-"workbench.colorTheme": "Community Material Theme Palenight",
+"editor.colorDecorators": true,
 "css.styleSheets": [
 	"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.css"
 ],
 "npm.enableRunFromFolder": true,
-"npm.exclude": ["**/backend/**", "**/vendor/**"],
+"npm.exclude": [
+	"**/backend/**",
+	"**/vendor/**"
+],
+"css.enabledLanguages": [
+	"php",
+	"html"
+],
+"workbench.colorTheme": "Community Material Theme Palenight High Contrast",
 }

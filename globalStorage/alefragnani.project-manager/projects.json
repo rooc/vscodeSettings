@@ -14,15 +14,8 @@
 		"enabled": true
 	},
 	{
-		"name": "help",
-		"rootPath": "/home/rooc/Work/adaxes-help",
-		"paths": [],
-		"group": "",
-		"enabled": true
-	},
-	{
-		"name": "sdk",
-		"rootPath": "/home/rooc/Work/adaxes/sdk",
+		"name": "docs",
+		"rootPath": "/home/rooc/Work/adaxes/docs/",
 		"paths": [],
 		"group": "",
 		"enabled": true
@@ -79,6 +72,13 @@
 	{
 		"name": "pdf-gen",
 		"rootPath": "/home/rooc/Work/pdf-gen",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "odigia",
+		"rootPath": "/home/rooc/Work/odigia",
 		"paths": [],
 		"group": "",
 		"enabled": true

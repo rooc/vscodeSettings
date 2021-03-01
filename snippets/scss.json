@@ -8,6 +8,15 @@
 		],
 		"description": "Include Breakpoint"
 	},
+	"Bootstrap Breakpoint": {
+		"prefix": "@mb",
+		"body": [
+			"@include media-breakpoint-${1:up} (${2:lg}) {",
+			"\t$3",
+			"}$0"
+		],
+		"description": "Include Breakpoint"
+	},
 	"Comment": {
 		"prefix": "com",
 		"body": [
