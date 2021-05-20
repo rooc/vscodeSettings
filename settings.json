@@ -256,8 +256,8 @@
 	},
 "tailwindCSS.emmetCompletions": true,
 "tailwindCSS.includeLanguages": {
-	"scss": "css",
-	"nunjucks": "html"
+	"nunjucks": "html",
+	"scss": "postcss"
 },
 "colorInfo.languages": [
 	
@@ -293,5 +293,6 @@
 	"php",
 	"html"
 ],
-"workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+"workbench.colorTheme": "Material Theme Palenight High Contrast",
+"git.fetchOnPull": true,
 }

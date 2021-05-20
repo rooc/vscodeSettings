@@ -82,5 +82,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "ldapold",
+		"rootPath": "/home/rooc/Work/ldapold",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]

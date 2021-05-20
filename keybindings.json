@@ -404,5 +404,9 @@
 	{
 		"key": "ctrl+,",
 		"command": "-workbench.action.openSettings"
+	},
+	{
+		"key": "ctrl+alt+g",
+		"command": "git.viewHistory"
 	}
 ]
