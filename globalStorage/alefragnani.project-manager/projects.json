@@ -96,5 +96,19 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "la-nuxt",
+		"rootPath": "/home/rooc/Work/la-nuxt",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "temp",
+		"rootPath": "/home/rooc/Work/temp",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]

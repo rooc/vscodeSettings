@@ -408,5 +408,13 @@
 	{
 		"key": "ctrl+alt+g",
 		"command": "git.viewHistory"
+	},
+	{
+		"key": "f3",
+		"command": "findWordAtCursor.next"
+	},
+	{
+		"key": "shift+f3",
+		"command": "findWordAtCursor.previous"
 	}
 ]
