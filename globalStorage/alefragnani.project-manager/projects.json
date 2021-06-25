@@ -84,8 +84,15 @@
 		"enabled": true
 	},
 	{
-		"name": "ldapold",
-		"rootPath": "/home/rooc/Work/ldapold",
+		"name": "rooc.me",
+		"rootPath": "/home/rooc/Work/rooc.me",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "bulma",
+		"rootPath": "/home/rooc/Work/github/css/bulma",
 		"paths": [],
 		"group": "",
 		"enabled": true

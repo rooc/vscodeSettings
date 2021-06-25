@@ -26,7 +26,7 @@
 	"editor.quickSuggestions": {
 		"other": true,
 		"comments": false,
-		"strings": false
+		"strings": true
 	},
 	"emmet.includeLanguages": {
 		"plaintext": "html",
@@ -256,8 +256,9 @@
 	},
 "tailwindCSS.emmetCompletions": true,
 "tailwindCSS.includeLanguages": {
+	"scss": "css",
 	"nunjucks": "html",
-	"scss": "postcss"
+	"PostCSS": "css"
 },
 "colorInfo.languages": [
 	
@@ -293,6 +294,5 @@
 	"php",
 	"html"
 ],
-"workbench.colorTheme": "Material Theme Palenight High Contrast",
-"git.fetchOnPull": true,
+"workbench.colorTheme": "Community Material Theme Palenight High Contrast",
 }
